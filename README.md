@@ -1,6 +1,6 @@
 Creates 100 random avatars using Replicate's hosted version of Stable Diffusion 3.
 
-To ensure a wide variety of images, prompt is "profile picture of a (18-70)-year-old man/woman"
+To ensure a wide variety of images, prompt is "profile picture of a (18-70)-year-old (man/woman) from (country)"
 
 ```bash
 export REPLICATE_API_TOKEN=...

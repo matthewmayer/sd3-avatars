@@ -4,7 +4,7 @@ import {
 import fs from 'fs/promises';
 import path from 'path';
 
-const getPrompt = (type) => faker.helpers.fake(`profile picture of a {{number.int({"min":18, "max":70})}}-year-old ${type}`);
+const getPrompt = (type) => faker.helpers.fake(`profile picture of a {{number.int({"min":18, "max":70})}}-year-old ${type} from {{location.country}}`);
 import Replicate from "replicate";
 
 const replicate = new Replicate({
